@@ -5,7 +5,7 @@
 def key_for_min_value(hash)
   if name_hash.length == 0
     return nil
-  else 
+  else
     array = []
     name_hash.each do |key, value|
       array << value
@@ -15,8 +15,8 @@ def key_for_min_value(hash)
       min_num = value if value < min_num
     end
     name_hash.each do |key, value|
-      if min_num == value 
-        return key 
+      if min_num == value
+        return key
       end
     end
   end
